@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<AssemblyName>RouteJs.AspNet</AssemblyName>
+		<PackageId>RouteJs.AspNet</PackageId>
+		<PackageTags>asp.net;mvc;asp;routing;route;url;ajax;jquery;javascript;js;vnext;asp.net 5</PackageTags>
+		<PackageReleaseNotes>Please refer to project site (http://dan.cx/projects/routejs) for more details, release notes, usage examples and sample code.</PackageReleaseNotes>
+		<PackageProjectUrl>http://dan.cx/projects/routejs</PackageProjectUrl>
+		<PackageLicenseUrl>http://dan.cx/projects/routejs#licence</PackageLicenseUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>git://github.com/Daniel15/RouteJs</RepositoryUrl>
+		<Description>JavaScript URL routing for ASP.NET Core. Allows you to use your ASP.NET MVC routes from JavaScript. Please refer to project site (http://dan.cx/projects/routejs) for more details, usage examples and sample code.</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.1.0" />
+	</ItemGroup>
+
+</Project>
